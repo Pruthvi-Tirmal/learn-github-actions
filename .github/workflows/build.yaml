@@ -10,5 +10,7 @@ jobs:
     name: Build React App
     runs-on: macos-latest
     steps:
+      - name: install dependencies
+        run: npm i
       - name: build command
         run: npm run build
