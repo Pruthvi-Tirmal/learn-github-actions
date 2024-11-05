@@ -10,6 +10,8 @@ jobs:
     name: Build React App
     runs-on: macos-latest
     steps:
+      - name: checkout code
+        uses: actions/checkout@v4
       - name: install dependencies
         run: npm i
       - name: build command
