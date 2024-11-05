@@ -1,4 +1,4 @@
-name: "React Build File"
+name: React Build File
 
 on:
   push:
@@ -9,6 +9,6 @@ jobs:
   build:
     name: Build React App
     runs-on: macos-latest
-  steps:
-    - name: build command
-      run: npm run build
+    steps:
+      - name: build command
+        run: npm run build
