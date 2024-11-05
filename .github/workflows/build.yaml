@@ -7,8 +7,8 @@ on:
 
 jobs:
   build:
-    name: "Build React App"
-    runs-on: "macos-latest"
+    name: Build React App
+    runs-on: macos-latest
   steps:
-    - name: "build command"
+    - name: build command
       run: npm run build
