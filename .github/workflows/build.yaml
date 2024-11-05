@@ -1,0 +1,14 @@
+name: "React Build File"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: "Build React App"
+    runs-on: "macos-latest"
+  steps:
+    - name: "build command"
+      run: npm run build
